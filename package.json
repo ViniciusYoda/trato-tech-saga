@@ -3,29 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/system": "^2.6.2",
-    "@chakra-ui/toast": "^7.0.2",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@reduxjs/toolkit": "^1.9.7",
-    "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.1.2",
-    "@testing-library/user-event": "^14.5.1",
-    "axios": "^1.6.2",
-    "classnames": "^2.3.2",
-    "framer-motion": "^10.6.8",
-    "json-server": "^0.17.4",
+    "@chakra-ui/system": "^2.3.0",
+    "@chakra-ui/toast": "7.0.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@reduxjs/toolkit": "^1.8.4",
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.1.2",
+    "@testing-library/user-event": "14.5.1",
+    "axios": "^1.1.3",
+    "classnames": "^2.3.1",
+    "framer-motion": "10.16.9",
+    "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.48.2",
-    "react-icons": "^4.12.0",
-    "react-redux": "^8.1.3",
-    "react-router-dom": "^6.20.0",
-    "react-scripts": "^5.0.1",
+    "react-hook-form": "^7.35.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
     "redux-saga": "^1.2.2",
-    "sass": "^1.69.5",
-    "uuid": "^9.0.1",
-    "web-vitals": "^3.5.0"
+    "sass": "^1.54.4",
+    "uuid": "9.0.1",
+    "web-vitals": "3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,5 +51,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/axios.min.js"
+    }
   }
 }
